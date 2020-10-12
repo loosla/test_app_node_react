@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Test Site</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <style>
+        body { padding-top:50px; }
+    </style>
+
+<!-- Load React. -->
+<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+</head>
+<body>
+    <h1>My Website</h1>
+    <p id="demo">Initial Text.</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+    <div id="like_button_container"></div> 
+    <!-- Should be included after DOM element: #like_button_container -->
+    <script src="./react.js"></script> 
+</body>
+</html>
